@@ -15,6 +15,21 @@ namespace TiendaVeterinaria
         public pantallaLogin()
         {
             InitializeComponent();
+
+
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ConexionBBDD.conectar().Open();
+
+
+        }
+
+        private void ComprobarUsuario(string usuario,string contraseña)
+        {
+
         }
     }
 }

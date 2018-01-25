@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TiendaVeterinaria
 {
-    public partial class Form1 : Form
+    public partial class pantallaLogin : Form
     {
-        public Form1()
+        public pantallaLogin()
         {
             InitializeComponent();
         }

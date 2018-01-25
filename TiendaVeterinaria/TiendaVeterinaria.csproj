@@ -45,14 +45,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="pantallaLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="pantallaLogin.Designer.cs">
+      <DependentUpon>pantallaLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ventanaClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaClientes.Designer.cs">
+      <DependentUpon>ventanaClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaMascotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaMascotas.Designer.cs">
+      <DependentUpon>ventanaMascotas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaTienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaTienda.Designer.cs">
+      <DependentUpon>ventanaTienda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventanaVisita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ventanaVisita.Designer.cs">
+      <DependentUpon>ventanaVisita.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="pantallaLogin.resx">
+      <DependentUpon>pantallaLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
